@@ -15,10 +15,10 @@ Then go to your home directory which is usually C:\Users\(your initials} then ty
 ~~~
 mkdir develop
 cd develop
-mkdir jupyter
-cd jupyter
+git clone https://github.com/pinfold/Lecture6/
+cd Lecture6
 ~~~
-bring the files and directories from this repository into this directory then create a Python virtual environment
+Now create a Python virtual environment
 ~~~
 python3 -m venv jupyter
 jupyter\Scripts\activate
